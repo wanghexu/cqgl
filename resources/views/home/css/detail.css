@@ -1,0 +1,67 @@
+body{
+	width: 100%;
+	height: auto;
+}
+.main{
+    width: 1002px;
+    height: auto;
+}
+.main .m_position{
+    font-size: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #0369a9;
+}
+.main .m_position a{
+    color: #0369a9;
+}
+.main .m_title p{
+     text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.main .m_time p{
+    text-align: center;
+    font-size: 15px;
+    color: #555;
+}
+
+.main .m_con p{
+    width: 888px;
+    margin: 0 auto;
+    text-indent:32px;
+    line-height:200%;
+    font-size: 16px;
+    color:#555;
+}
+.main .m_con .m_img{
+    margin: 0 auto;
+    width: 688px;
+}
+.main .m_con img {
+    max-width: 100%;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    /*width: 688px;*/
+    /*height: 400px;*/
+}
+.mian_page{
+    width: 1002px;
+    margin-top: 38px;
+}
+.mian_page .m_take a{
+    color: #555;
+}
+.mian_page .m_next_pre ul{
+
+}
+.mian_page .m_next_pre ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.mian_page .m_next_pre ul li a{
+    color: #333;
+}
+.mian_page .m_next_pre ul li a:hover{
+    color: #0369a9;
+}

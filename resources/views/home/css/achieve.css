@@ -1,0 +1,123 @@
+.yaosu{
+	height: 122px;
+    width: 700px;
+}
+.tu{
+	float: left;
+	order:1px solid black;
+}
+.content{
+	float: right;
+	width: 495px;
+	height: 103px;
+}
+.sp1{
+	font-size: 16px;
+	color: #696868;
+	float: left;
+}
+.sp2{
+	font-size: 16px;
+	color: #696868;
+	float: right;
+	line-height: 195px;
+}
+.mid{
+  width: 1002px;
+  height: 209px;
+  margin-top: 43px;
+}
+.leftk {
+    height: 250px;
+    width: 224px;
+    float: left;
+    margin-left: 0px;
+    cursor: pointer;
+}
+.le1{
+  width:249px;
+  height: 65px;
+  line-height: 65px;
+  text-align: center;
+  background: url(../images/色条.png);
+}
+.t1{
+  font-size: 14px;
+  color: white;
+  z-index: 1000;
+  margin-right: 25px;
+}
+.le2{
+  width:224px;
+  height: 38px;
+  text-align: center;
+  padding-top: 27px;
+  border-bottom: 1px solid #bcbab1;
+}
+.t2{
+  font-size: 14px;
+  color: #008ac9;
+}
+.le3{
+  width:224px;
+  height: 38px;
+  text-align: center;
+  padding-top: 27px;
+}
+.t3{
+  margin-top: 31px;
+  font-size: 14px;
+  color: #008ac9;
+}
+.rightk {
+    margin-top: 3px;
+    height: 199px;
+    width: 710px;
+    float: left;
+    margin-left: 46px;
+}
+.rightk ul li{
+    color: #696868;
+    font-size: 14px;
+   list-style-type:none;
+   margin-left: -40px;
+}
+.rightk ul li a{
+   color: #696868;
+   font-size: 15px;
+   margin-left: 14px;
+}
+.rightk li a:hover{
+    color: #008ac9;
+    text-decoration: underline;
+}
+.i{
+   float: right;
+   margin-right: 13px;
+}
+.l11{
+  width: 700px;
+  height: 24px;
+  border-bottom: 1px #696868 dashed;
+  margin-top: -18px;
+  overflow:hidden;    /*溢出隐藏*/
+}
+.l1{
+  width: 700px;
+  height: 23px;
+  border-bottom: 1px #696868 dashed;
+  margin-top: 11px;
+  overflow:hidden;
+}
+.txt{
+  width: 1002px;
+  height: 142px;
+  margin-bottom: -6px;
+}
+.z1{
+  font-size: 14px;
+  color: #008ac9;
+  text-align: right;
+  margin-right: 35px;
+  line-height: 242px;
+}

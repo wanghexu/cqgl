@@ -1,0 +1,158 @@
+
+    a{outline:none;text-decoration:none;}
+    .pointer{height:4px;position:absolute;bottom:0px;}
+     .pointer li{width:42px;height:1px;background:#5a5a5a;float:left;cursor: pointer;list-style: none;}
+     .pointer li.now{height:4px;background:#c8c8c8;}
+    .cut{background:#bdbdbd;position:absolute;font-family:'宋体';color:#fff;text-align:center;cursor:pointer;opacity:0.8;}
+    .J_banner{max-width:100%;position:relative;overflow:hidden;margin-top: 29px;}
+   .J_banner .img{width:2000px;overflow:hidden;position:absolute;top:-16px;left:0;margin-left:-40px;}
+  .J_banner .img li{float:left;position:relative; list-style: none;}
+   .J_banner1 .pointer{width:100px;height:15px;position:absolute;bottom:16px;margin-left: -35px;}
+    .J_banner1 .pointer li{width:15px;height:15px;background:#d0d0d0;border-radius:50%;margin:0 5px;float:left;}
+   .J_banner1 .pointer li.now{background:#fff;}
+  .J_banner .cut{width:34px;height:58px;left:0px;font-size:18px;line-height:58px;}
+  .J_banner .cut.next{left:auto;right:0px;}
+
+.main .main_1 p{
+     width: 480px;
+     height: 30px;
+      line-height: 30px;
+      text-align: center;
+     background-color: rgba(0,0,0,.5);
+      position: relative;
+      top: -49px;
+     z-index: 10;
+     /*opacity:0.8;*/
+    color: #ffffff;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; //文本不换行，这样超出一行的部分被截取，显示...
+      }
+.main_2 ul.main_2_1{
+    width: 273px;
+    margin-left: -25px;
+    margin-top: 48px;
+    list-style:square inside url(../images/eg_arrow.gif);
+}
+.main_2 .main_2_1 li{
+    margin-top: 5px;
+     height: 30px;
+    border-bottom: 1px dashed #b3b3b3;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap; //文本不换行，这样超出一行的部分被截取，显示...
+
+  
+}
+.main_2 ul li a{
+    color: #333;
+    font-size: 15px;
+}
+.main_2_1 li a:hover{
+    color: #007dc5;
+    text-decoration: underline;
+}
+ .main_2 span{
+          width: 55px;
+          color: #fce98f;
+          float: right;
+          margin-top: 5px;
+        font-size: 14px;
+ }
+ .main_2 span a{
+          color:#007dc5;
+ }
+
+.main_3 #slick-login {
+   margin-top: 50px;
+   margin-left: 10px;
+}
+.main_3 #slick-login .info{
+     width: 173px;
+       height: 28px;
+       margin-top: 15px;
+       border-radius: 5px;
+       background-color: #ffffff !important;
+}
+.main_3 #slick-login .login{
+       width: 175px;
+       height: 38px;
+       margin-top: 18px;
+       background-color: #0369a9;
+        border-radius: 10px;
+        color: #FFFFFF;
+}
+.main2{
+    width: 1002px;
+    height: 235px;
+    margin-top: 36px;
+    background: url(../images/jianshe-bg.png) no-repeat;
+}
+.main2 .main2_1{
+    width: 234px;
+    height: 215px;
+    padding-top: 40px;
+    float: left;
+    margin-right: 22px;
+}
+.main2 .main2_2{
+    width: 234px;
+    height: 215px;
+    padding-top: 40px;
+    float: right;
+}
+.main2 p{
+    width: 234px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    position: relative;
+    top: -48px;
+    z-index: 10;
+    font-size: 15px;
+    /*opacity:0.5;*/
+    color: #ffffff;
+}
+.main3{
+    width: 1002px;
+    height: 235px;
+    margin-top: 55px;
+    background: url(../images/chengguo-bg.png) no-repeat;
+}
+.main3 img{
+            float:left;
+            height:215px;
+            width:250px;
+}
+.main3 #div1{
+           width:1002px;
+           height: 250px;
+           overflow: hidden;
+}
+.main3 #div2,#div3{
+           float:left;
+            margin-top: 45px;
+}
+.main3 #div4{
+           width:500%;/*这个属性很重要 让容器有足够的宽度实现滚动*/
+            float:left;
+}
+.foot{
+    width: 1002px;
+  height: 122px;
+  background-color: #0369a9;
+  border-top: #0369a9;
+}
+.foot ul{
+     padding-top: 25px;
+}
+.foot ul li{
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+    list-style: none;
+}
