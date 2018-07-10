@@ -25,10 +25,24 @@ class LoginController extends CommonController
 
         if($input = Input::all()){
            // dd($input);
-            $user = User::first();
-
+            //加斜杠，路径去底层找，strtoupper是转换成大写
+            $code = new \Code;
+            $_code = $code->get();
+            if(strtoupper($input['code'])!=$_code){
+                return back()->with('msg','验证码错误！');
+            }
+            //$user = User::first();
+            //$user = User::where('user_name',$input['user_name'])->where('user_pass',md5($input['user_pass']))->first();
+            $user = User::where('user_name',$input['user_name'])->first();
+//            if($user->isEmpty()){
+//                return back()->with('msg',$user);
+//            }
+//
             if($user->user_name != $input['user_name'] ||$user->user_pass!= md5($input['user_pass'])){
                 return back()->with('msg','用户名或者密码错误！');
+            }
+            if($user->state!=0){
+                return back()->with('msg','此用户已经被禁用！');
             }
             session(['user'=>$user]);
             return redirect('admin/index');

@@ -9,8 +9,10 @@ class Category extends Model
     protected $table='category';
     protected $primaryKey='cate_id';
     public $timestamps=false;
+    //定义黑名单为空，就是谁都可以插入，$fillable为白名单
     protected $guarded=[];
 
+    //分类出现树状
     public function tree()
     {
         $categorys = $this->orderBy('cate_order','asc')->get();

@@ -24,6 +24,9 @@
     Route::get('/innovate', 'Home\IndexController@innovate');
     Route::get('/cate/{cate_id}', 'Home\IndexController@cate');
     Route::get('home/article/{art_id}', 'Home\IndexController@article');
+    Route::get('admin/user/close/{user_id}', 'Admin\UserController@jinyong');
+    Route::get('admin/user/open/{user_id}', 'Admin\UserController@kaiqi');
+    Route::post('admin/usercheck/checkif', 'Admin\UserController@checkif');
 
     Route::any('admin/login', 'Admin\LoginController@login');
     Route::get('admin/code', 'Admin\LoginController@code');
@@ -45,6 +48,7 @@ Route::group(['prefix'=>'admin','namespace'=>'Admin'], function () {
     Route::get('info', 'IndexController@info');
     Route::get('quit', 'LoginController@quit');
     Route::any('pass', 'IndexController@pass');
+    Route::any('copydb', 'IndexController@copydb');
 
     Route::post('cate/changeorder', 'CategoryController@changeOrder');
     Route::resource('category', 'CategoryController');
@@ -52,6 +56,8 @@ Route::group(['prefix'=>'admin','namespace'=>'Admin'], function () {
     Route::resource('article', 'ArticleController');
     Route::resource('file', 'FileController');
     Route::resource('question', 'QuestionController');
+    Route::resource('user', 'UserController');
+    Route::resource('project', 'ProjectController');
 
     Route::post('links/changeorder', 'LinksController@changeOrder');
     Route::resource('links', 'LinksController');

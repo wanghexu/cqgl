@@ -1,0 +1,23 @@
+.page_list{
+    height: 50px;
+    margin-top: 15px;
+}
+.page_list ul.pagination{
+    width: 170px;
+    margin: 0 auto;
+}
+.page_list .pagination li a{
+    color: #0369a9;
+}
+.page_list .pagination li{
+    list-style: none;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 15px;
+    float: left;
+    color: #696868;
+}
+.page_list .pagination .disabled{
+    border-left:1px solid #ddd;
+}

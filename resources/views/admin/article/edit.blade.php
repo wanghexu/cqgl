@@ -87,19 +87,18 @@
                                     $('input[name=art_thumb]').val(data);
                                     $('#art_thumb_img').attr('src','../../../'+data);
                                     //console.log(data);
-                                    alert("上传成功");
                                 },
                                 'onError'      : function(errorType) {
                                     alert('文件不能大于10MB ！' + "请重新上传");
                                 },
-//                                onCancel : function(file) {
-//                                    /* 取消改文件 */
-//                                    alert(file.name + " 已取消上传~!");
-//
-//                                    $('#art_thumb_img').attr('src','');
-//                                    $('input[name=art_thumb]').val("");
-//
-//                                },
+                                onCancel : function(file) {
+                                    /* 取消改文件 */
+                                    alert(file.name + " 已取消上传~!");
+
+                                    $('#art_thumb_img').attr('src','');
+                                    $('input[name=art_thumb]').val("");
+
+                                },
 
                             });
                         });
@@ -114,8 +113,7 @@
             <tr>
                 <th></th>
                 <td>
-                    {{--<img alt="" id="art_thumb_img" style="max-width: 350px; max-height:100px;" src="../../../{{$field->art_thumb}}">--}}
-                    <img alt="" id="art_thumb_img" style="max-width: 350px; max-height:100px;" src="{{asset($field->art_thumb)}}">
+                    <img alt="" id="art_thumb_img" style="max-width: 350px; max-height:100px;" src="/{{$field->art_thumb}}">
                 </td>
             </tr>
             <tr>

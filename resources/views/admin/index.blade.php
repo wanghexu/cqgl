@@ -36,14 +36,15 @@
 		<li>
 			<h3><i class="fa fa-fw fa-desktop"></i>系统管理</h3>
 			<ul class="sub_menu" style="display: block;">
-				<li><a href="{{url('admin/question')}}" target="main"><i class="fa fa-fw fa-child"></i>账号管理</a></li>
-				<li><a href="{{url('admin/question')}}" target="main"><i class="fa fa-fw fa-calendar"></i>项目管理</a></li>
+				<li><a href="{{url('admin/user')}}" target="main"><i class="fa fa-fw fa-child"></i>账号管理</a></li>
+				<li><a href="{{url('admin/project')}}" target="main"><i class="fa fa-fw fa-calendar"></i>项目管理</a></li>
 				<li><a href="{{url('admin/question')}}" target="main"><i class="fa fa-fw fa-question-circle"></i>查看问题</a></li>
 			</ul>
 		</li>
 		<li>
 			<h3><i class="fa fa-fw fa-cog"></i>系统设置</h3>
 			<ul class="sub_menu" style="display: block;">
+				<li><a href="{{url('admin/copydb')}}" target="main"><i class="fa fa-fw fa-clipboard"></i>数据库备份</a></li>
 				<li><a href="{{url('admin/links')}}" target="main"><i class="fa fa-fw fa-cubes"></i>友情链接</a></li>
 				<li><a href="{{url('admin/config')}}" target="main"><i class="fa fa-fw fa-cogs"></i>网站配置</a></li>
 			</ul>
